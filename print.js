@@ -1,5 +1,5 @@
 exports.Initialize = function Initialize(){
-    return {name: "PRINT", argumentCount: 1, blockCommand: true};
+    return {name: "PRINT", argumentCount: 1, standaloneFunction: true};
 }
 
 exports.Operation = function Operation(arguments){

@@ -1,5 +1,5 @@
 exports.Initialize = function Initialize(){
-    return {name: "CONCAT", argumentCount: 2, blockCommand: false};
+    return {name: "CONCAT", argumentCount: 2, standaloneFunction: false};
 }
 
 exports.Operation = function Operation(arguments){

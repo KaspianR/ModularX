@@ -1,5 +1,5 @@
 exports.Initialize = function Initialize(){
-    return {name: "GOTO", argumentCount: 1, blockCommand: true};
+    return {name: "GOTO", argumentCount: 1, standaloneFunction: true};
 }
 
 exports.Operation = function Operation(arguments){
